@@ -1,0 +1,63 @@
+
+<!doctype html>
+<html dir="ltr"
+      hascustombackground="false"
+      lang="zh"
+      class="md">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="light dark">
+<title>新無痕式分頁</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBmaWxsPSIjNDU1QTY0Ij48cGF0aCBmaWxsPSJub25lIiBkPSJNMCAwaDI0djI0SDB6Ii8+PHBhdGggZD0iTTMgMTFoMTh2MUgzem0xNC42Mi0xLTIuMjktNi4xYy0uMTktLjUtLjc0LS43Ny0xLjI1LS42TDEyIDRsLTIuMDktLjdjLS41MS0uMTctMS4wNi4xLTEuMjUuNkw2LjM4IDEwaDExLjI0em0tMS4xMiAzYy0xLjY2IDAtMy4wNCAxLjE2LTMuNCAyLjcxLS44NC0uMzYtMS42Mi0uMjYtMi4yLS4wMUEzLjUwMyAzLjUwMyAwIDAgMCA3LjUgMTNDNS41NyAxMyA0IDE0LjU3IDQgMTYuNVM1LjU3IDIwIDcuNSAyMGMxLjg0IDAgMy4zMy0xLjQyIDMuNDctMy4yMi4zLS4yMSAxLjA5LS42IDIuMDYuMDIuMTYgMS43OSAxLjY0IDMuMiAzLjQ3IDMuMiAxLjkzIDAgMy41LTEuNTcgMy41LTMuNVMxOC40MyAxMyAxNi41IDEzem0tOSA2YTIuNSAyLjUgMCAwIDEgMC01IDIuNSAyLjUgMCAwIDEgMCA1em05IDBhMi41IDIuNSAwIDAgMSAwLTUgMi41IDIuNSAwIDAgMSAwIDV6Ii8+PC9zdmc+">
+<meta name="viewport" content="width=device-width">
+<link id="incognitothemecss" rel="stylesheet">
+
+</head>
+<body>
+<div class="content">
+  <div class="icon" role="presentation" alt=""></div>
+  <h1>你已進入無痕模式  hello</h1>
+  <p id="subtitle">
+    <span>現在你可以進行私密瀏覽了。共用這部裝置的其他使用者不會看到你的活動，不過，你下載的內容、新增的書籤及加入閱讀清單中的項目仍會保留在裝置上。</span>
+    <a class="learn-more-button"
+        href="https://support.google.com/chrome/?p=incognito"
+        aria-label="進一步瞭解無痕模式">瞭解詳情</a>
+  </p>
+  <div id="bulletpoints-wrapper">
+    <div class="bulletpoints first">Chrome <em>不會儲存</em>下列資訊：
+        <ul>
+          <li>你的瀏覽記錄
+          <li>Cookie 和網站資料
+          <li>在表單中輸入的資訊
+        </ul></div>
+    <div class="bulletpoints">以下各方<em>可能仍會看到</em>你的活動：
+        <ul>
+          <li>你造訪的網站
+          <li>你的雇主或學校
+          <li>你的網際網路服務供應商
+        </ul></div>
+  </div>
+  <div id="cookie-controls">
+    <div id="cookie-controls-description">
+      <em>封鎖第三方 Cookie</em>
+      <span>開啟這項功能後，網站無法使用 Cookie 來追蹤你在網路上的活動。某些網站的功能可能無法正常運作。</span>
+    </div>
+    <div hidden>
+      <cr-tooltip-icon id="cookie-controls-tooltip-icon"
+          icon-aria-label="封鎖第三方 Cookie"
+          icon-class=""
+          tooltip-text="你可以在 Cookie 設定中控管這項設定。"
+          role="link" style="cursor: pointer;">
+      </cr-tooltip-icon>
+    </div>
+    <cr-toggle id="cookie-controls-toggle"
+               aria-label="封鎖第三方 Cookie"
+               
+               checked dark></cr-toggle>
+  </div>
+  <a class="learn-more-button" href="https://support.google.com/chrome/?p=incognito"
+      aria-label="進一步瞭解無痕模式">瞭解詳情</a>
+</div>
+
+</body>
+</html>
